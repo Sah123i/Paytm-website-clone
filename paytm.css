@@ -1,0 +1,396 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-container {
+    width: 100%;
+}
+
+.main_header {
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+}
+
+#header_img {
+    position: relative;
+    top: 10px;
+    left: 150px;
+}
+
+.header_a1 {
+    border-radius: 5px;
+    top: -11px;
+    left: 185px;
+    padding: 5px;
+}
+
+.header_a1:hover {
+    background-color: aquamarine;
+    top: -11px;
+    left: 185px;
+}
+
+.header_a2 {
+    position: relative;
+    width: 213px;
+    border-radius: 6px;
+    padding: 5px;
+    left: 602px;
+    top: -47px;
+}
+
+.header_a2:hover {
+    background-color: aquamarine;
+}
+
+.header_a3 {
+    position: relative;
+    border-radius: 6px;
+    width: 104px;
+    padding: 5px;
+    left: 849px;
+    top: -85px;
+}
+
+.header_a3:hover {
+    background-color: aquamarine;
+}
+
+.header_a4 {
+    position: relative;
+    width: 82px;
+    padding: 5px;
+    top: -124px;
+    left: 997px;
+    border-radius: 6px;
+}
+
+.header_a4:hover {
+    background-color: aquamarine;
+}
+
+#header_bottom {
+    height: 40px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: #F6F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+}
+
+#_first_h3 {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+#_second_h3 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main_container_1 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+
+#img_con_1 {
+    width: 60px;
+    height: 60px;
+}
+
+#sub_container h1 {
+    font-size: 50px;
+    position: relative;
+    top: 40px;
+}
+
+#sub_container p {
+    font-size: 20px;
+    position: relative;
+    top: 40px;
+}
+
+#img_sub_1 {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: -250px;
+    left: 700px;
+}
+
+#sub_con_butt {
+    width: 190px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: black;
+    color: aliceblue;
+    position: relative;
+    top: -410px;
+}
+
+#sub_con_butt:hover {
+    background-color: azure;
+    color: black;
+}
+
+#main_container_2 {
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+    top: 100px;
+}
+
+.main_con_sub_1 {
+    height: 250px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(118, 219, 245);
+}
+
+#main_con_2_h1 {
+    position: relative;
+    left: 112px;
+    top: 30px;
+    font-size: 30px;
+    color: white;
+}
+
+.menu_con_2_1 {
+    width: 125px;
+    height: 140px;
+    border-radius: 20px;
+    position: relative;
+    top: 60px;
+    left: 94px;
+}
+
+.menu_con_2_1 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_1 h3 {
+    font-size: 17px;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_1:hover {
+    background-color: rgb(152, 152, 245);
+}
+
+.menu_con_2_2 {
+    width: 125px;
+    height: 140px;
+    border-radius: 20px;
+    position: relative;
+    top: -81px;
+    left: 250px;
+}
+
+.menu_con_2_2 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_2 h3 {
+    font-size: 17px;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_2:hover {
+    background-color: rgb(152, 152, 245);
+}
+
+.menu_con_2_3 {
+    width: 125px;
+    height: 140px;
+    border-radius: 20px;
+    position: relative;
+    top: -222px;
+    left: 403px;
+}
+
+.menu_con_2_3 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    left: 21px;
+}
+
+.menu_con_2_3 h3 {
+    font-size: 17px;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_3:hover {
+    background-color: rgb(152, 152, 245);
+}
+
+.menu_con_2_4 {
+    width: 125px;
+    height: 140px;
+    position: relative;
+    left: 557px;
+    border-radius: 20px;
+    top: -360px;
+}
+
+.menu_con_2_4 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_4 h3 {
+    font-size: 17px;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_4:hover {
+    background-color: rgb(152, 152, 245);
+}
+
+.menu_con_2_5 {
+    width: 125px;
+    height: 140px;
+    position: relative;
+    left: 709px;
+    border-radius: 20px;
+    top: -499px;
+}
+
+.menu_con_2_5 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_5 h3 {
+    font-size: 17px;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_5:hover {
+    background-color: rgb(152, 152, 245);
+}
+
+.menu_con_2_6 {
+    width: 125px;
+    height: 140px;
+    position: relative;
+    left: 859px;
+    border-radius: 20px;
+    top: -637px;
+}
+
+.menu_con_2_6 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_6 h3 {
+    font-size: 17px;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_6:hover {
+    background-color: rgb(152, 152, 245);
+}
+
+.menu_con_2_7 {
+    width: 125px;
+    height: 140px;
+    position: relative;
+    left: 1007px;
+    border-radius: 20px;
+    top: -774px;
+}
+
+.menu_con_2_7 img {
+    height: 40px;
+    width: 40px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_7 h3 {
+    font-size: 17px;
+    font-weight: 200;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.menu_con_2_7:hover {
+    background-color: rgb(152, 152, 245);
+}
+
+.header_a1 {
+    display: inline-block;
+    position: relative;
+}
+
+.drop-down-options{
+    display: none;
+    position: absolute;
+    overflow: auto;
+    text-decoration: none;
+    background: white;
+    padding: 20px;
+    height: 125px;
+}
+
+.header_a1:hover .drop-down-options {
+    display: block;
+}
+
+.sub-drop-options2 {
+    padding: 5px;
+    color: black;
+}
+
+.a-but {
+    text-decoration: none;
+    color: black;
+}
